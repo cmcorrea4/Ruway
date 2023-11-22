@@ -9,7 +9,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 import PyPDF2
-
+from PIL import Image
 import glob
 from gtts import gTTS
 import os
