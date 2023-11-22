@@ -32,7 +32,7 @@ image = Image.open('Invoc.png')
 
 st.image(image)
 
-st.write('Cada día los habitantes de tikal mandaN sus plegarias por medio del disco de la encarnación, para que una vez al año, el ascendido se encarne como hombre. '
+st.write('Cada día los habitantes de tikal mandan sus plegarias por medio del disco de la encarnación, para que una vez al año, el ascendido se encarne como hombre. '
          'Poco a poco este se carga de la esencia de los mortales.')
 
 if st.button('ELEVAR PLEGARIA'):
