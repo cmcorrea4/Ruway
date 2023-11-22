@@ -49,6 +49,8 @@ if st.button('ELEVAR PLEGARIA'):
 else:
     st.write('')
 
+image = Image.open("logo.png")
+st.image(image)
 #if st.button('DESACTIVAR'):
 #    act1="OFF"
 #    client1= paho.Client("MMMa")                           
