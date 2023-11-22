@@ -23,13 +23,17 @@ port=1883
 client1= paho.Client("MMMa")
 client1.on_message = on_message
 
-st.title("Luces")
-st.subheader("CONTROL POR BOTÓN")
+st.title("ALTAR")
+
+st.subheader("EL PODER DE LA INFORMACIÓN")
+
 
 image = Image.open('Invoc.png')
 
 st.image(image, width=800)
 
+st.write('Los rebeldes y marginados de la sociedad acudieron en masa, sedientos de la verdad oculta detrás de los muros digitales.'
+         'El altar cyberpunk se convirtió en el epicentro de una revolución silenciosa, irradiando conocimiento prohibido en un mundo dominado por la opresión tecnológica.')
 
 if st.button('Encender'):
     act1="ON"
