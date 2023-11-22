@@ -21,7 +21,7 @@ except:
     pass
 
 
-st.title('Oráculo de  q\' tikal ? 💬')
+st.title('Oráculo de  q\' Tikal. ? 💬')
 
 image = Image.open('chat.png')
 
@@ -32,7 +32,7 @@ st.write(' Al ingresar al recinto del oráculo de Tikal, una sinfonía de luces 
          ' corrientes invisibles por los rincones del recinto. El oráculo, envuelto en una amalgama de tecnología ancestral y moderna, se yergue'
          ' como un guardián de la sabiduría oculta, sus ojos luminosos fijos en aquellos que buscan respuestas en el torrente de información que fluye a su alrededor.')
 
-ke = st.text_input('Escribe el código Secreto que te permite acceso al conocimiento de Ruway')
+ke = st.text_input('Escribe el código Secreto que te permite acceso al conocimiento de Ruway.')
 try:
     os.environ['OPENAI_API_KEY'] = ke
     
