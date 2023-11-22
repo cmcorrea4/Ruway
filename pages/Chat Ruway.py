@@ -114,3 +114,5 @@ try:
 
 except:    
          pass
+        image = Image.open("bocetación.png")
+        st.image(image, caption="Ruway")
