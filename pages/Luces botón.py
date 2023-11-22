@@ -35,27 +35,27 @@ st.image(image, width=800)
 st.write('Los rebeldes y marginados de la sociedad acudieron en masa, sedientos de la verdad oculta detrás de los muros digitales.'
          'El altar cyberpunk se convirtió en el epicentro de una revolución silenciosa, irradiando conocimiento prohibido en un mundo dominado por la opresión tecnológica.')
 
-if st.button('Encender'):
+if st.button('ACTIVAR'):
     act1="ON"
     client1= paho.Client("MMMa")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"casco":act1})
-    ret= client1.publish("Cosplay/Casco", message)
+    message =json.dumps({"escudo_p":act1})
+    ret= client1.publish("escudo_p", message)
  
-    #client1.subscribe("Sensores")
+    
     
     
 else:
     st.write('')
 
-if st.button('Apagar'):
+if st.button('DESACTIVAR'):
     act1="OFF"
     client1= paho.Client("MMMa")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"casco":act1})
-    ret= client1.publish("Cosplay/Casco", message)
+    message =json.dumps({"escudo_p":act1})
+    ret= client1.publish("escudo_p", message)
   
     
 else:
