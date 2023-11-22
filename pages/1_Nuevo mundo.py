@@ -48,6 +48,7 @@ text = ('En el siglo XV, un navegante italiano, '
         'Durante 100 años, el Imperio Maya ataca Europa, propagando una peste que debilita al continente. '
         'Finalmente, con Europa derrotada, el continente americano, liderado por el Imperio Maya,'
         'florece tecnológicamente con Nukal como centro. ')
+
 tld="es"
 
 def text_to_speech(text, tld):
