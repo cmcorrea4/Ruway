@@ -28,7 +28,7 @@ st.subheader("CONTROL POR BOTÓN")
 
 image = Image.open('Invoc.png')
 
-st.image(image, width=600)
+st.image(image, width=800)
 
 
 if st.button('Encender'):
