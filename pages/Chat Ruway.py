@@ -24,7 +24,7 @@ except:
 
 st.title('Oráculo de  q\' tikal ? 💬')
 
-image = Image.open('Oraculo.png')
+image = Image.open('chat.png')
 
 st.image(image, width=600)
 
