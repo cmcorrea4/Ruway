@@ -26,7 +26,7 @@ client1.on_message = on_message
 st.title("Luces")
 st.subheader("CONTROL POR BOTÓN")
 
-image = Image.open('Casco render.png')
+image = Image.open('invoc.png')
 
 st.image(image, width=400)
 
