@@ -21,7 +21,7 @@ st.subheader("Llegada a un nuevo mundo.")
 
 st.write('Aqui encontrarás la narración de la construcción del nuevo mundo, '  
          'La historia de Miguel Alonso Aragón y su expedición y adentramiento en esta cultura. '   
-         'Puedes leer o Ponerte los audifonos y acompañarnos en esta increible historia. ')
+         'Puedes leer o usar los audifonos y acompañarnos en esta fascinante historia. ')
 
 st.subheader("Su Historia.")
 
