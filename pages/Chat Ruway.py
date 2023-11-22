@@ -30,9 +30,10 @@ st.write(' Al ingresar al recinto del oráculo cyberpunk, una sinfonía de luces
          ' como un guardián de la sabiduría oculta, sus ojos luminosos fijos en aquellos que buscan respuestas en el torrente de información que fluye a su alrededor.')
 
 ke = st.text_input('Escribe el código Secreto que te permite acceso al conocimiento de Ruway')
-#os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
-os.environ['OPENAI_API_KEY'] = ke
-
+try:
+    os.environ['OPENAI_API_KEY'] = ke
+except:    
+    pass
 pdfFileObj = open('Ruway.pdf', 'rb')
  
 # creating a pdf reader object
