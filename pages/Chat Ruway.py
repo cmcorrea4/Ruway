@@ -22,7 +22,7 @@ except:
 
 
 
-st.title('Oráculo de q'ij tikal ? 💬')
+st.title('Oráculo de  q\' tikal ? 💬')
 ke = st.text_input('Escribe el código Secreto que te permite acceso al conocimiento de Ruway')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
