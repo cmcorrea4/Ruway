@@ -23,7 +23,7 @@ port=1883
 client1= paho.Client("MMMa")
 client1.on_message = on_message
 
-st.title("El DISCO DE LA ENCARNACIÓN")
+st.title("El DISCO DE LA ENCARNACIÓN.")
 
 #st.subheader("PLEGARIAS")
 
