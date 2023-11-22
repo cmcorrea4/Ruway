@@ -25,7 +25,7 @@ client1.on_message = on_message
 
 st.title("El DISCO DE LA ENCARNACIÓN")
 
-st.subheader("PLEGARIAS")
+#st.subheader("PLEGARIAS")
 
 
 image = Image.open('Invoc.png')
