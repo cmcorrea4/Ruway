@@ -57,6 +57,9 @@ audio_bytes = audio_file.read()
 st.markdown(f"## Escucha su historia:")
 st.audio(audio_bytes, format="audio/mp3", start_time=0)
 
+image = Image.open("logo.png")
+st.image(image)
+
    # if display_output_text:
    # st.markdown(f"## Texto en audio:")
    # st.write(f" {output_text}")
