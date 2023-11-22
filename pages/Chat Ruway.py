@@ -60,7 +60,7 @@ try:
     knowledge_base = FAISS.from_texts(chunks, embeddings)
     
     # show user input
-    st.subheader("Realiza la pregunta")
+    st.subheader("Has sido autorizado, Realiza la pregunta")
     user_question = st.text_input(" ")
     if user_question:
             docs = knowledge_base.similarity_search(user_question)
