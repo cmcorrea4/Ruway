@@ -22,8 +22,8 @@ except:
 
 
 
-st.title('Que deseas Saber de Ruway ? 💬')
-ke = st.text_input('Ingresa tu Clave')
+st.title('Oráculo de q'ij tikal ? 💬')
+ke = st.text_input('Escribe el código Secreto que te permite acceso al conocimiento de Ruway')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
 
@@ -54,7 +54,7 @@ embeddings = OpenAIEmbeddings()
 knowledge_base = FAISS.from_texts(chunks, embeddings)
 
 # show user input
-st.subheader("Escribe que quieres saber sobre el documento")
+st.subheader("Realiza la pregunta")
 user_question = st.text_input(" ")
 if user_question:
         docs = knowledge_base.similarity_search(user_question)
