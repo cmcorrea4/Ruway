@@ -1,6 +1,9 @@
 import streamlit as st
 from PIL import Image
 
+image2 = Image.open("logo.png")
+st.image(image2)
+
 st.title("Proyecto de cosplay Ruway")
 
 st.header("Proyecto de cosplay original diseñado y desarrollado por la Universidad EAFIT")
