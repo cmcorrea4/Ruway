@@ -49,16 +49,16 @@ if st.button('ELEVAR PLEGARIA'):
 else:
     st.write('')
 
-if st.button('DESACTIVAR'):
-    act1="OFF"
-    client1= paho.Client("MMMa")                           
-    client1.on_publish = on_publish                          
-    client1.connect(broker,port)  
-    message =json.dumps({"escudo_p":act1})
-    ret= client1.publish("escudo_p", message)
+#if st.button('DESACTIVAR'):
+#    act1="OFF"
+#    client1= paho.Client("MMMa")                           
+#    client1.on_publish = on_publish                          
+#    client1.connect(broker,port)  
+#    message =json.dumps({"escudo_p":act1})
+#    ret= client1.publish("escudo_p", message)
   
     
-else:
-    st.write('')
+#else:
+#    st.write('')
 
 
