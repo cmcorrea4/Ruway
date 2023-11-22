@@ -21,13 +21,13 @@ except:
     pass
 
 
-st.title('Oráculo de  q\' Tikal. ? 💬')
+st.title('Oráculo de  q\'ij Tikal. ? 💬')
 
 image = Image.open('chat.png')
 
 st.image(image, width=600)
 
-st.write(' Al ingresar al recinto del oráculo de Tikal, una sinfonía de luces parpadeantes y hologramas danzantes recibe a los visitantes.'
+st.write(' Al ingresar al recinto del oráculo de q\'ij Tikal, una sinfonía de luces parpadeantes y hologramas danzantes recibe a los visitantes.'
          ' El zumbido constante de cables entrelazados crea una atmósfera casi hipnótica, mientras que los murmullos de datos fluyen como '
          ' corrientes invisibles por los rincones del recinto. El oráculo, envuelto en una amalgama de tecnología ancestral y moderna, se yergue'
          ' como un guardián de la sabiduría oculta, sus ojos luminosos fijos en aquellos que buscan respuestas en el torrente de información que fluye a su alrededor.')
