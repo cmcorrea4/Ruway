@@ -105,5 +105,6 @@ try:
                 
                 
               remove_files(7)
-  except:    
+
+except:    
          pass
