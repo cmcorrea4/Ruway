@@ -1,8 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-image2 = Image.open("logo.png")
-st.image(image2)
 
 st.title("Proyecto de cosplay Ruway")
 
@@ -18,4 +16,6 @@ link_text = "[Más información](https://sites.google.com/view/proyectoqijtikal/
 # Mostrar el hipervínculo utilizando st.markdown
 st.markdown(link_text, unsafe_allow_html=True)
 
+image = Image.open("bocetación.png")
+st.image(image, caption="Ruway")
 
