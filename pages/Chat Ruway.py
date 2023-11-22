@@ -20,7 +20,9 @@ try:
 except:
     pass
 
+image2 = Image.open('logo.png')
 
+st.image(image2, width=600)
 
 st.title('Oráculo de  q\' tikal ? 💬')
 
