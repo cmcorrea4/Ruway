@@ -22,7 +22,7 @@ except:
 
 
 
-st.title('Que deseas Saber de IM ? 💬')
+st.title('Que deseas Saber de Ruway ? 💬')
 ke = st.text_input('Ingresa tu Clave')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
