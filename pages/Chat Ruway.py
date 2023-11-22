@@ -90,8 +90,7 @@ try:
               st.markdown(f"## Escucha:")
               st.audio(audio_bytes, format="audio/mp3", start_time=0)
     
-    except:    
-    pass
+  
     
                 
               def remove_files(n):
@@ -106,3 +105,5 @@ try:
                 
                 
               remove_files(7)
+  except:    
+    pass
