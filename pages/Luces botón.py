@@ -26,9 +26,9 @@ client1.on_message = on_message
 st.title("Luces")
 st.subheader("CONTROL POR BOTÓN")
 
-image = Image.open('Invoc2.png')
+image = Image.open('Invoc.png')
 
-st.image(image, width=400)
+st.image(image, width=600)
 
 
 if st.button('Encender'):
