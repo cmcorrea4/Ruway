@@ -88,3 +88,6 @@ if result:
         os.mkdir("temp")
     except:
         pass
+image2 = Image.open('logo.png')
+
+st.image(image2)
