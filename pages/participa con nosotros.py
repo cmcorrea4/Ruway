@@ -16,5 +16,9 @@ image = Image.open("Código QR para Concurso.png")
 
 st.image(image, caption="https://forms.office.com/r/tJ57RUQPAL")
 
+image2 = Image.open('logo.png')
+
+st.image(image2)
+
 
 
