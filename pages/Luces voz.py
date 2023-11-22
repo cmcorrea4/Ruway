@@ -35,11 +35,11 @@ image = Image.open('Casco.jpg')
 
 st.image(image, width=400)
 
-st.write('En un mundo cyberpunk donde la información es la moneda más poderosa, las palabras habladas se convierten en códigos de poder. 
-          'En las calles repletas de neón y cables, los oradores clandestinos son como chamanes digitales, sus voces resonando como programas'
-          'víricos que desafían la narrativa controlada por las megacorporaciones. Cada palabra es un virus de liberación, capaz de abrir grietas '
-          ' en la realidad digital impuesta, despertando mentes adormecidas y encendiendo la chispa de la rebelión en los corazones de aquellos sedientos '
-          ' de verdades ocultas entre líneas de código')
+st.write('En un mundo cyberpunk donde la información es la moneda más poderosa, las palabras habladas se convierten en códigos de poder. '
+         'En las calles repletas de neón y cables, los oradores clandestinos son como chamanes digitales, sus voces resonando como programas'
+         'víricos que desafían la narrativa controlada por las megacorporaciones. Cada palabra es un virus de liberación, capaz de abrir grietas '
+         'en la realidad digital impuesta, despertando mentes adormecidas y encendiendo la chispa de la rebelión en los corazones de aquellos sedientos '
+         'de verdades ocultas entre líneas de código')
 
 
 
