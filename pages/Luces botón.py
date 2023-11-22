@@ -25,7 +25,7 @@ client1.on_message = on_message
 
 st.title("ALTAR")
 
-st.subheader("EL PODER DE LA INFORMACIÓN")
+st.subheader("CENTRO DE ENERGÍA")
 
 
 image = Image.open('Invoc.png')
