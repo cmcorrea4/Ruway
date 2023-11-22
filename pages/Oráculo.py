@@ -21,7 +21,7 @@ except:
     pass
 
 
-st.title('Oráculo de  q\'ij Tikal. ? 💬')
+st.title('Oráculo de  q\'ij Tikal. 💬')
 
 image = Image.open('chat.png')
 
