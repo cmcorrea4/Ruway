@@ -9,7 +9,7 @@ faiss-cpu==1.7.4
 streamlit-extras
 openai==0.28
 tiktoken
-paho-mqtt
+paho-mqtt==1.6.1
 Jinja2 >=2.9
 contourpy >=1
 numpy >=1.16
