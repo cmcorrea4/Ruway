@@ -26,6 +26,11 @@ st.title('Oráculo de  q\'ij Tikal. 💬')
 image = Image.open('chat.png')
 
 st.image(image, width=600)
+video_file = open("orac.mp4", "rb")
+video_bytes = video_file.read()
+
+st.video(video_bytes)
+
 
 st.write(' Al ingresar al recinto del oráculo de q\'ij Tikal, una sinfonía de luces parpadeantes y hologramas danzantes recibe a los visitantes.'
          ' El zumbido constante de cables entrelazados crea una atmósfera casi hipnótica, mientras que los murmullos de datos fluyen como '
