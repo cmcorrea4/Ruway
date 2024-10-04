@@ -25,8 +25,8 @@ st.title('Oráculo de  q\'ij Tikal. 💬')
 
 image = Image.open('chat.png')
 
-st.image(image, width=600)
-video_file = open("orac.mp4", "rb")
+#st.image(image, width=600)
+video_file = open("oraculo.mp4", "rb")
 video_bytes = video_file.read()
 
 st.video(video_bytes)
