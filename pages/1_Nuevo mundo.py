@@ -25,7 +25,7 @@ st.write('Aqui encontrarás la narración de la construcción del nuevo mundo, '
 
 st.subheader("Su Historia.")
 
-st.audio("alonsoaragon", format="mp3")
+st.audio("alonsoaragon.mp3", format="mp3")
 
 st.write('En el siglo XV, un navegante italiano, '
         'financiado por la Corona de Castilla para encontrar una ruta a las Indias Orientales, '
