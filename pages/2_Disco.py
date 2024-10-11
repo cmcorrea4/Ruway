@@ -17,8 +17,6 @@ def on_message(client, userdata, message):
     st.write(message_received)
 
         
-
-
 broker="broker.mqttdashboard.com"
 port=1883
 client1= paho.Client("MMMa")
