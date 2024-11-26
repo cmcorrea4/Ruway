@@ -18,7 +18,7 @@ def on_message(client, userdata, message):
         
 
 
-broker="broker.mqttdashboard.com"
+broker="157.230.214.127"
 port=1883
 client1= paho.Client("MMMa")
 client1.on_message = on_message
@@ -36,12 +36,12 @@ st.write('Cada día los habitantes de tikal mandan sus plegarias por medio del d
          'Poco a poco este se carga de la esencia de los mortales.')
 
 if st.button('ELEVAR PLEGARIA'):
-    act1="ON"
+    act1="nacer"
     client1= paho.Client("MMMa")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"escudo_p":act1})
-    ret= client1.publish("escudo_p", message)
+    message =json.dumps({"voice/cosplay":act1})
+    ret= client1.publish("voice/cosplay", message)
  
     
     
