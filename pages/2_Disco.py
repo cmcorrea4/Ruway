@@ -56,7 +56,7 @@ st.image(image)
 with col2:
 
     if st.button('Apagar'):
-            act1="apagar"
+            act1="apaga"
             client1= paho.Client("MMMa")                           
             client1.on_publish = on_publish                          
             client1.connect(broker,port)  
