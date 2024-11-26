@@ -35,22 +35,36 @@ st.image(image)
 st.write('Cada día los habitantes de tikal mandan sus plegarias por medio del disco de la encarnación, para que una vez al año, el ascendido se encarne como hombre. '
          'Poco a poco este se carga de la esencia de los mortales.')
 
-if st.button('ELEVAR PLEGARIA'):
-    act1="nacer"
-    client1= paho.Client("MMMa")                           
-    client1.on_publish = on_publish                          
-    client1.connect(broker,port)  
-    message =json.dumps({"Act1":act1})
-    ret= client1.publish("voice/cosplay", message)
- 
+col1, col2, col3 = st.columns(3)
+
+with col1:
     
-    
-    
-else:
-    st.write('')
+    if st.button('ELEVAR PLEGARIA'):
+        act1="nacer"
+        client1= paho.Client("MMMa")                           
+        client1.on_publish = on_publish                          
+        client1.connect(broker,port)  
+        message =json.dumps({"Act1":act1})
+        ret= client1.publish("voice/cosplay", message)   
+        
+    else:
+        st.write('')
 
 image = Image.open("logo.png")
 st.image(image)
+
+with col2:
+
+    if st.button('Apagar'):
+            act1="apagar"
+            client1= paho.Client("MMMa")                           
+            client1.on_publish = on_publish                          
+            client1.connect(broker,port)  
+            message =json.dumps({"Act1":act1})
+            ret= client1.publish("voice/cosplay", message)
+
+    else:
+            st.write('')
 #if st.button('DESACTIVAR'):
 #    act1="OFF"
 #    client1= paho.Client("MMMa")                           
