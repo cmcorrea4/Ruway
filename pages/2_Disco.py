@@ -40,7 +40,7 @@ if st.button('ELEVAR PLEGARIA'):
     client1= paho.Client("MMMa")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"voice/cosplay":act1})
+    message =json.dumps({"Act1":act1})
     ret= client1.publish("voice/cosplay", message)
  
     
