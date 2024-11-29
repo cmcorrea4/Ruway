@@ -41,7 +41,7 @@ st.write(' Al ingresar al recinto del oráculo de q\'ij Tikal, una sinfonía de 
 try:
     #os.environ['OPENAI_API_KEY'] = ke
     os.environ['OPENAI_API_KEY'] = st.secrets["settings"]["key"] #ke
-    pdfFileObj = open('Ruway.pdf', 'rb')
+    pdfFileObj = open('conocimientocos.pdf', 'rb')
      
     # creating a pdf reader object
     pdfReader = PyPDF2.PdfReader(pdfFileObj)
